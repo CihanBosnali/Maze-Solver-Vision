@@ -4,7 +4,7 @@ Read the mail Cihan sent you and don't do anything unless everyone know what you
   #2 Send me a private message from whatsapp to prove that you read this file                                            
   #3 When you first connect to this repo message to the group immediately and of course check your mail                  
   #4 Sorry for my bad England                                                                                            
-  #5 I'll open a discord group chat for this be online and write your nicknames underthis box                            
+  #5 I'll open a discord group chat for this, be online and write your nicknames underthis box                            
      #5-1 !!So if you guys don't have a discord account create one!!                                                     
                                                                                                     ~Necati             
 
