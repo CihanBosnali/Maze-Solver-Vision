@@ -18,4 +18,4 @@ Read the mail Cihan sent you and don't do anything unless everyone know what you
 | Selin Buyukalkan  | Selin   |
 
 
-# Send me a private message from whatsapp to prove that you read this file | ~Necati
+!!Send me a private message from whatsapp to prove that you read this file!! | ~Necati
