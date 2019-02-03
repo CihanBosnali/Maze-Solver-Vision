@@ -10,12 +10,12 @@ Read the mail Cihan sent you and don't do anything unless everyone know what you
 
 
 
-| Discord Nickname  |  Person |          
-|   Zenci Reis      |  Necati |          
-|                   |  Bora   |
-|  Cihan Bosnali    |  Cihan  |
-|   Oral Ekin       |  Ekin   |
-| Selin Buyukalkan  | Selin   |
+ Discord Nicknames:          
+   Zenci Reis - Necati       
+   ??? - Bora   
+   Cihan Bosnali - Cihan
+   Oral Ekin - Ekin   
+   Selin Buyukalkan - Selin   
 
 
 !!Send me a private message from whatsapp to prove that you read this file!! | ~Necati
