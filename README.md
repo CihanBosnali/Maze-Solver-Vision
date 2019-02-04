@@ -7,7 +7,7 @@ Solving maze problems from images.
 * **Cihan Alperen Bosnalı** - *Advisor* - [CihanBosnali](https://github.com/CihanBosnali)
 * **Ekin Oral** - *Advisor* - [oralekin](https://github.com/oralekin)
 
-See also the list of [contributors](https://github.com/Maze-Solver-Vision/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/CihanBosnali/Maze-Solver-Vision/graphs/contributors) who participated in this project.
 
 ## License
 
