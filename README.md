@@ -3,11 +3,11 @@ Solving maze problems from images.
 
 ## Authors
 
-* **Soykut Necati Köse** - *Developer* - [Melionikov](https://github.com/https://github.com/Melionikov)
+* **Soykut Necati Köse** - *Developer* - [Melionikov](https://github.com/Melionikov)
 * **Cihan Alperen Bosnalı** - *Advisor* - [CihanBosnali](https://github.com/CihanBosnali)
-* **Ekin Oral** - *Advisor* - [oralekin](https://github.com/https://github.com/https://github.com/oralekin)
+* **Ekin Oral** - *Advisor* - [oralekin](https://github.com/oralekin)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Maze-Solver-Vision/contributors) who participated in this project.
 
 ## License
 
