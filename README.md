@@ -1,5 +1,5 @@
 # Maze-Solver-Vision
-Solving maze problems from images.
+Solving maze problems from images autonomously.
 
 ## Authors
 
