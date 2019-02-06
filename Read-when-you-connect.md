@@ -14,7 +14,7 @@ Read the mail Cihan sent you and don't do anything unless everyone know what you
  
    Zenci Reis - Necati  
    
-   ??? - Bora   
+   Bora Güney - Bora   
    
    Cihan Bosnali - Cihan
    
@@ -24,3 +24,4 @@ Read the mail Cihan sent you and don't do anything unless everyone know what you
 
 
 !!Send me a private message from whatsapp to prove that you read this file!! | ~Necati
+I am here Necati!
