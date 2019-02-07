@@ -9,7 +9,7 @@ class Link():
         self.parent = b
         def readImage(mazePath):
              img = cv2.imread(mazePath, 0)
-    ret, binaryImage = cv2.threshold(img, 10, 255, cv2.THRESH_BINARY)
+    ret, binaryImage = cv2.threshold(img, 0, 255, cv2.THRESH_BINARY)
     return binaryImage
     def findNeighbours(img,row,column):
     neighbours = []
@@ -167,8 +167,8 @@ def findPath(graph, initial, final, img):
 
 def main(mazePath, flag = 0):  
      img = readImage(mazePath)
-     breadth = len(img)          
-    length = len(img[0])
+     breadth = len(img)/20          
+    length = len(img[0])/20
     graph = buildGraph(img)       
     shortestPath = findPath(graph, initial_point, final_point, img)  ## Find shortest path. Pass arguments as required.
     print shortestPath             ## Print shortest path to verify
