@@ -4,7 +4,6 @@ Solving maze problems from images autonomously.
 ## Authors
 
 * **Soykut Necati Köse** - *Developer* - [Melionikov](https://github.com/Melionikov)
-* **Bora Güney** - *Developer* - [bguney](https://github.com/bguney)
 * **Cihan Alperen Bosnalı** - *Advisor* - [CihanBosnali](https://github.com/CihanBosnali)
 * **Ekin Oral** - *Advisor* - [oralekin](https://github.com/oralekin)
 
