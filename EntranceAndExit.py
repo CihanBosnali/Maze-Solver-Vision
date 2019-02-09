@@ -1,22 +1,29 @@
 import cv2
 import numpy as np 
 
-def find_entrance_by_color(image, lower_color=np.array([0,100,0]), upper_color=np.array([1,255,1])):
+def get_image(image_path):
+    # TODO: Get image from camera
+    return cv2.imread(image_path)
+
+def find_endpoints_by_color(image, lower_color=np.array([0,100,0]), upper_color=np.array([20,255,20])):
     mask = cv2.inRange(image, lower_color, upper_color)
-    return mask
-
+    _, contours, _ = cv2.findContours(mask,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
     
+    x,y,w,h = cv2.boundingRect(contours[0])
+    center = (int(x+(w/2)), int(y+(h/2)))
+
+    return center
+
 def main():
-    image = cv2.imread("maze.png")
+    image = get_image("maze.png")
 
-    mask_entrance = find_entrance_by_color(image)
-    mask_exit = find_entrance_by_color(image, lower_color=np.array([0,0,100]), upper_color=np.array([1,1,255]))
+    entrance_location = find_endpoints_by_color(image)
+    exit_location = find_endpoints_by_color(image, lower_color=np.array([0,0,100]), upper_color=np.array([20,20,255]))
 
-    while True:
-        cv2.imshow("Green", mask_entrance)
-        cv2.imshow("Red", mask_exit)
+    cv2.line(image, entrance_location, exit_location, (255,0,255), 3)
 
-        if cv2.waitKey() == 27:
-            break
+    cv2.imshow("img", image)
+    cv2.waitKey(0)
 
-main()
+if __name__ == "__main__":
+    main()
