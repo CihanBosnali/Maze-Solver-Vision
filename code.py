@@ -14,15 +14,22 @@ def find_endpoints_by_color(image, lower_color=np.array([0,100,0]), upper_color=
 
     return center
 
+def maze2binary(image):
+    mask = cv2.inRange(image, np.array([0,0,0]), np.array([180,100,100]))
+    return mask
+
+
 def main():
     image = get_image("maze.png")
 
     entrance_location = find_endpoints_by_color(image)
     exit_location = find_endpoints_by_color(image, lower_color=np.array([0,0,100]), upper_color=np.array([20,20,255]))
 
-    cv2.line(image, entrance_location, exit_location, (255,0,255), 3)
+    binary_maze = maze2binary(image)
 
-    cv2.imshow("img", image)
+
+    cv2.line(image, entrance_location, exit_location, (255,0,255), 3)
+    cv2.imshow("img", binary_maze)
     cv2.waitKey(0)
 
 if __name__ == "__main__":
