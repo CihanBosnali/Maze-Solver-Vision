@@ -3,7 +3,7 @@ Solving maze problems from images autonomously.
 
 ## Authors
 
-See also the list of [contributors](https://github.com/CihanBosnali/Maze-Solver-Vision/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/CihanBosnali/Maze-Solver-Vision/graphs/contributors) who participated in this project.
 
 ## License
 
